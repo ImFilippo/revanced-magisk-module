@@ -7,8 +7,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
-included-patches = ""
+arch = "arm64-v8a"
+excluded-patches = "'Swipe controls' 'Copy video URL' 'Enable debugging' 'Disable zoom haptics' 'Announcements' 'Hide captions button' 'Hide autoplay button' 'Hide player buttons' 'Disable auto captions' 'Spoof app version' 'Alternative thumbnails' 'Disable resuming Shorts on startup' 'Wide searchbar' 'Hide timestamp' 'Disable rolling number animations' 'Hide 'Load more' button' 'Hide seekbar' 'Hide info cards' 'Comments' 'Custom player overlay opacity' 'Playback speed'"
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
